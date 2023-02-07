@@ -58,3 +58,5 @@ while money >= 0:
 	else:
 		jiang = 0
 		print('很遗憾您全未猜中，奖金为%d。\n现在您的余额为%d。' % (jiang, money))
+
+		print('阳桑，故乡的樱花开了，你有去看吗？:)')
