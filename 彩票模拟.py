@@ -1,5 +1,4 @@
 # 彩票模拟小游戏
-# 彩票模拟小游戏
 import random
 k1 = '开始游戏'
 k2 = '结束游戏'
@@ -10,8 +9,8 @@ try:
 	while 1:
 		data = list()
 		for i in range(0, 6):
-			 = random.choice(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
-			data.append()
+			s = random.choice(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
+			data.append(s)
 		while 1:
 			data1 = money
 			if money <= 0:
