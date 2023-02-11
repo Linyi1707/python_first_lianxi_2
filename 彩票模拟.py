@@ -4,9 +4,9 @@ k1 = '开始游戏'
 k2 = '结束游戏'
 print(k1.center(60, '*'))
 try:
-	money = int(input('请输入您的基础金额(不要超过一亿)：'))
+	money = int(input('请输入您的基础金额：'))
 	if money >= 10 ** 8:
-		print('请输入合理的数值！')
+		print('请输入合理的数值(不要超过一亿)！')
 	else:
 		print('您现在的余额为%d' % money)
 		while 1:
