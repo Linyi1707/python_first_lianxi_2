@@ -2,8 +2,6 @@
 
 # 彩票模拟小游戏
 
-import random
-
 k1 = '开始游戏'
 k2 = '结束游戏'
 print(k1.center(60, '*'))
@@ -12,8 +10,8 @@ money = int(input('请输入您的基础金额：'))
 print('您现在的余额为%d' % money)
 while money >= 0:
 	for i in range(0, 6):
-		 = random.choice(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
-		data.append()
+	#	= random.choice(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
+	#	data.append()
 # print(data)
 # break
 	while 1:
